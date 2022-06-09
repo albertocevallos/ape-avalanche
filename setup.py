@@ -48,9 +48,9 @@ setup(
     description="""ape-avalanche: Ape Ecosystem Plugin for Avalanche""",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="ApeWorX Ltd.",
-    author_email="admin@apeworx.io",
-    url="https://github.com/ApeWorX/ape-avalanche",
+    author="Alberto Cevallos",
+    author_email="albertocevallos@proton.me",
+    url="https://github.com/albertocevallos/ape-avalanche",
     include_package_data=True,
     install_requires=[
         "importlib-metadata ; python_version<'3.8'",
