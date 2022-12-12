@@ -53,10 +53,9 @@ setup(
     url="https://github.com/albertocevallos/ape-avalanche",
     include_package_data=True,
     install_requires=[
-        "importlib-metadata ; python_version<'3.8'",
-        "eth-ape>=0.2.1,<0.3.0",
+        "eth-ape>=0.5.2,<0.6",
     ],  # NOTE: Add 3rd party libraries here
-    python_requires=">=3.7.2,<3.11",
+    python_requires=">=3.8,<3.11",
     extras_require=extras_require,
     py_modules=["ape_avalanche"],
     license="Apache-2.0",
@@ -72,7 +71,6 @@ setup(
         "Operating System :: MacOS",
         "Operating System :: POSIX",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
